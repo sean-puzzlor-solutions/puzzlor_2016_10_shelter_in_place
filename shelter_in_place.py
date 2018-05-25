@@ -10,7 +10,7 @@ def main():
         for j in range(10):
             board[i][j+1] = dict()
 
-    # Inputting data
+    # Input data
     food = [['A', 6], ['E', 9], ['I', 9]]
     water = [['F', 6], ['G', 9], ['H', 3]]
     wood = [['B', 10], ['E', 1], ['I', 4]]
@@ -26,6 +26,7 @@ def main():
     # You must always return back to camp after visiting any resource location.
     trip_food, trip_water, trip_wood = 1, 3, 2
 
+    # Best location object
     best_location = ['K', 0, sys.maxsize]
 
     # calculating distance
@@ -43,7 +44,7 @@ def main():
                 board[i][j]['food'] = d_food
                 board[i][j]['water'] = d_water
                 board[i][j]['wood'] = d_wood
-                board[i][j]['total'] = trip_food * d_food + trip_water * d_water + trip_wood * d_wood
+                board[i][j]['total'] = (trip_food * d_food + trip_water * d_water + trip_wood * d_wood) * 2
                 if board[i][j]['total'] < best_location[2]:
                     best_location = [i, j, board[i][j]['total']]
 
