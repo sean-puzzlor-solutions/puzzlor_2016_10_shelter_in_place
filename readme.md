@@ -1,4 +1,4 @@
-#Shelter in Place
+# Shelter in Place
 
 ![Image](Puzzlor_shelterinplace_JTv1.png)
 
