@@ -1,6 +1,6 @@
 #Shelter in Place
 
-[Image](Puzzlor_shelterinplace_JTv1.png)
+![Image](Puzzlor_shelterinplace_JTv1.png)
 
 You have found yourself lost in the woods and you don't expect to be found for several months.  You'll need to build a camp so you are in close proximity to water, food, and firewood in order to survive the coming winter.
 
